@@ -30,7 +30,7 @@ public class Exercise_5 {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[text()='New on Ventis?']")).click();
         Thread.sleep(1000);
-        driver.findElement(By.id("registerEmail")).sendKeys("lekawobu@acrossgracealley.com");
+        driver.findElement(By.id("registerEmail")).sendKeys("vupsusignu@vusra.com");
         driver.findElement(By.id("registerPassword")).sendKeys("test1234");
         driver.findElement(By.id("day")).click();
         Select day = new Select(driver.findElement(By.id("day")));
@@ -61,7 +61,7 @@ public class Exercise_5 {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[text()='New on Ventis?']")).click();
         Thread.sleep(1000);
-        driver.findElement(By.id("registerEmail")).sendKeys("lekawobu@acrossgracealley.com");
+        driver.findElement(By.id("registerEmail")).sendKeys("vupsusignu@vusra.com");
         driver.findElement(By.id("registerPassword")).sendKeys("test");
         driver.findElement(By.id("day")).click();
         Select day = new Select(driver.findElement(By.id("day")));
